@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>My Triangle</title>
 <script id="vertex-shader" type="x-shader/x-vertex">
 attribute vec2 vPosition;
 
@@ -17,14 +18,14 @@ precision mediump float;
 void
 main()
 {
-    gl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );
+    gl_FragColor = vec4( 0.8, 0.7, 0.1, 1 );
 }
 </script>
 
-<script type="text/javascript" src="../Common/webgl-utils.js"></script>
-<script type="text/javascript" src="../Common/initShaders.js"></script>
-<script type="text/javascript" src="../Common/flatten.js"></script>
-<script type="text/javascript" src="triangle.js"></script>
+<script type="text/javascript" src="../common/webgl-utils.js"></script>
+<script type="text/javascript" src="../common/initShaders.js"></script>
+<script type="text/javascript" src="../common/flatten.js"></script>
+<script type="text/javascript" src="myTriangle.js"></script>
 </head>
 
 <body>
